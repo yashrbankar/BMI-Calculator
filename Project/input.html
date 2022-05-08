@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Engage Project</title>
+    <style type ="text/css">
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body
+    {
+        background-image: url(img/830-1600x900.jpg);
+        background-position: center;
+        background-size: cover;
+        font-family: sans-serif;
+        margin-top: 40px;
+    }
+    .titlename
+    {
+        width: 800px;
+        background-color: rgb(0,0,0,.5);
+        margin: auto;
+        color: #FFFFFF;
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+        border: 15 px 15px 0px 0px;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .main
+    {
+        background-color: rgba(0, 0, 0, 0.41);
+        width: 800px;
+        margin: auto;
+    }
+    
+    form
+    {
+        padding: 10px;
+    }
+    #name 
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .name
+    {
+        margin-left: 25px;
+        margin-top: 30px;
+        color: white;
+        font-size: 19px;
+        font-weight: 700;
+    }
+
+    .firstname
+    {
+      position: relative;
+      left: 200px;
+      top: 10px;
+      line-height: 40px;
+      border-radius: 6px;
+      padding: 0px 22px;
+      font-size: 16px;
+    }
+    .lastname
+    {
+        position: relative;
+        left: 500px;
+        top: -33px;
+        line-height: 40px;
+        border-radius: 6px;
+        padding: 0 22px;
+        font-size: 16px;
+        color: #555;
+
+    }
+    
+    .company
+      {
+          position: relative;
+          left:200px;
+          top: -37px;
+          line-height: 40px;
+          width: 480px;
+          border-radius: 6px;
+          padding: 0 22px;
+          font-size: 16px;
+          color: #555;
+
+      }
+      .email{
+        position: relative;
+        left:200px;
+          top: -37px;
+          line-height: 40px;
+          width: 480px;
+          border-radius: 6px;
+          padding: 0 22px;
+          font-size: 16px;
+          color: #555;
+
+      }
+      .code{
+        position: relative;
+        left:200px;
+          top: -37px;
+          line-height: 40px;
+          width: 480px;
+          border-radius: 6px;
+          padding: 0 22px;
+          font-size: 16px;
+          color: #555;
+
+      }
+
+      .number{
+        position: relative;
+        left:200px;
+          top: -37px;
+          line-height: 40px;
+          width: 255px;
+          border-radius: 6px;
+          padding: 0 22px;
+          font-size: 16px;
+          color: #555;
+
+      }
+      .option{
+        position: relative;
+        left:200px;
+          top: -37px;
+          line-height: 40px;
+          width: 532px;
+          height:40px;
+          border-radius: 6px;
+          padding: 0 22px;
+          font-size: 16px;
+          color: #555;
+          outline:none;
+          overflow:hidden;
+          
+      }
+      .option option{
+          font-size: 20px;
+
+      }
+      .radio{
+          display: inline-block;
+          padding-right: 70px;
+          font-size: 25px;
+          margin-left: 25px;
+          margin-top: 15px;
+          color: white;
+
+      }
+      .radio input {
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          cursor :pointer ;
+          outline: none;
+          
+      }
+      button{
+          background-color: #3BAF9F;
+          display: block;
+          margin: 50px 0px 10px 250px;
+          text-align: center;
+          border-radius: 12px;
+          border: 2px solid #336473;
+          padding: 14px 110px;
+          outline:none;
+          color: white;
+          cursor: pointer;
+          transition: 0.25px;
+          
+      }
+      button:hover{
+          background-color: #eaf0f000;
+          color: greenyellow;
+          font-weight: bold;
+      }
+
+      #student
+      {
+        font-weight: 900;
+        font-style: inherit;
+        margin-left: 25px;
+        color: azure;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="titlename"><h1>Be Perfect</h1></div>
+    <div class="main">
+      <form>
+        <div id="name">
+          <h2 class="name"></h2>
+          <input type="text" class="firstname" name="first_name" placeholder="Enter your height in cm" ><br>
+          <input type="text" class="lastname" placeholder="Enter your weight in kg">
+        </div>
+
+        <h2 class="name">company</h2>
+        <input type="number" class="company" name="company" /> <br>
+        <h2 class="name">Age</h2>
+        <input type="text" class="email" name="email" />
+
+        <h2 class="name">Phone</h2>
+        <input type="text" class="code" />
+
+      
+        <h2 class="name">Subject</h2>
+        
+        <select class="option" name="subject">
+          <option disabled="disable" selected="selected">
+            --Dress Up For--
+          </option>
+          <option>Formal</option>
+          <option>Traditional</option>
+          <option>causal</option>
+        </select>
+        <h2 id="student">Have a spectacles</h2>
+        <label class="radio">
+          <input type="radio" name="gender" value="female"> Yes
+            <span class="checkmark"></span>
+        </label>
+        <label class="radio">
+          <input type="radio" name="gender" value="male"> No
+            <span class="checkmark"></span>
+        </label>
+        
+
+        <button type="sumbit">register</button>
+      </form>
+    </div>
+  </body>
+</html>
