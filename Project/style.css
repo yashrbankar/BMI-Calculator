@@ -1,0 +1,177 @@
+#bmiResult {
+  color: aliceblue;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem 1rem 2rem 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(img/830-1600x900.jpg);
+  background-repeat: repeat,repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif;
+  margin-top: 40px;
+}
+.titlename {
+  width: 800px;
+  background-color: rgb(0, 0, 0, 0.5);
+  margin: auto;
+  color: #ffffff;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  border: 15 px 15px 0px 0px;
+  border-radius: 15px 15px 0px 0px;
+}
+.main {
+  background-color: rgba(0, 0, 0, 0.41);
+  width: 800px;
+  margin: auto;
+}
+
+form {
+  padding: 10px;
+}
+#name {
+  width: 100%;
+  height: 100%;
+}
+/* .name {
+  margin-left: 25px;
+  margin-top: 30px;
+  color: white;
+  font-size: 19px;
+  font-weight: 700;
+} */
+
+.firstname {
+  position: relative;
+  left: 200px;
+  top: 10px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0px 22px;
+  font-size: 16px;
+}
+.lastname {
+  position: relative;
+  left: 500px;
+  top: -33px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+
+.company {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 480px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+.email {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 480px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+.code {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 480px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+
+.number {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 255px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+.option {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 532px;
+  height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+  outline: none;
+  overflow: hidden;
+}
+.option option {
+  font-size: 20px;
+}
+.radio {
+  display: inline-block;
+  padding-right: 70px;
+  font-size: 25px;
+  margin-left: 25px;
+  margin-top: 15px;
+  color: white;
+}
+.radio input {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+}
+button {
+  background-color: #3baf9f;
+  display: block;
+  margin: 50px 0px 0px 250px;
+  text-align: center;
+  border-radius: 12px;
+  border: 2px solid #336473;
+  padding: 14px 110px;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.25px;
+}
+button:hover {
+  background-color: rgba(32, 31, 69, 0.064);
+  color: greenyellow;
+  font-weight: bold;
+}
+
+#student{
+    color: aliceblue;
+    padding-left: 18rem;
+    
+}
+.radio{
+    padding-left: 10rem;
+
+}
+
