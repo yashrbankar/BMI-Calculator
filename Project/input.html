@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+    <!-- files included for the camera buttton -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--  -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,10 +38,7 @@
           </div>
           <p id="bmiResult"></p>
 
-          <input type="text" placeholder="phone" class="code" />
-
-          
-
+          <input type="text" placeholder="Age" class="code" />
           <select class="option" name="subject">
             <option disabled="disable" selected="selected">
               --choose occasion--
@@ -53,14 +57,16 @@
               <input type="radio" name="gender" value="male">No
               <span class="checkmark"></span>
             </label>
-            
+            <!-- <button id="camera_btn">Take Picture</button> -->
+            <div class="container_btnc">
+              <p>
+                <a href="camera/Untitled.html" class="btn btn-info btn-lg">
+                  <span class="glyphicon glyphicon-camera"></span> Camera
+                </a>
+              </p>
+            </div>
             <button id="submit">register</button>
           </div>
-          <form id="form1" runat="server">
-            <input type='file' id="imgInp" />
-            <img id="blah" src="#" alt="your image" />
-        </form>
-          
         </form>
       </div>
     </div>

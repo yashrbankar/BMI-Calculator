@@ -3,7 +3,7 @@
   align-items: center;
   text-align: center;
   font-size: 2rem;
-  margin: 1rem 1rem 2rem 1rem;
+  margin: 3rem 3rem 3rem 3rem;
 }
 
 * {
@@ -16,7 +16,7 @@ body {
   background-position: center;
   background-size: cover;
   font-family: sans-serif;
-  margin-top: 40px;
+  margin-top: 70px;
 }
 .titlename {
   width: 800px;
@@ -32,6 +32,7 @@ body {
   background-color: rgba(0, 0, 0, 0.41);
   width: 800px;
   margin: auto;
+  padding: 200px,200px;
 }
 
 form {
@@ -117,7 +118,7 @@ form {
 .option {
   position: relative;
   left: 200px;
-  top: -37px;
+  top: -10px;
   line-height: 40px;
   width: 532px;
   height: 40px;
@@ -165,6 +166,8 @@ button:hover {
   font-weight: bold;
 }
 
+
+
 #student{
     color: aliceblue;
     padding-left: 18rem;
@@ -173,5 +176,49 @@ button:hover {
 .radio{
     padding-left: 10rem;
 
+}
+
+/* camera botton css */
+.photo-button {
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  position: absolute;
+}
+.circle {
+  position: absolute;
+  top: 12%;
+  left: 12%;
+  bottom: 12%;
+  right: 12%;
+  border-radius: 100%;
+  background-color: #ffffff;
+  opacity: 0;
+}
+.ring {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  
+  border-radius: 100%;
+  border: 0.5em solid #ffffff;
+  opacity: 0.8;
+}
+.photo-button .circle, .photo-button .ring {
+  transition: all 0.25s;
+}
+.photo-button:hover .circle {
+  opacity: 1;
+}
+.photo-button:active .ring {
+  opacity: 1;
+}
+.photo-button:active .circle {
+  opacity: 0.5;
 }
 
